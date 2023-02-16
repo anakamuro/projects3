@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# ** TITLE **  PassPort
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Wireframe
+# Login Page
+![Wireframe](assets/login.jpeg)
 
-## Available Scripts
+--
+# Travel1
+![Wireframe](assets/travel1.jpeg)
 
-In the project directory, you can run:
+--
+# Travel2
+![Wireframe](assets/travel2.jpeg)
 
-### `npm start`
+--
+# Travel3
+![Wireframe](assets/travel3.jpeg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Travel4
+![Wireframe](assets/travel4.jpeg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+--
+# Travel5
+![Wireframe](assets/travel5.jpeg)
 
-### `npm test`
+--
+# Travel6
+![Wireframe](assets/travel6.jpeg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Travel7
+![Wireframe](assets/travel7.jpeg)
 
-### `npm run build`
+--
+# Travel8
+![Wireframe](assets/travel8.jpeg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+--
+# Travel9
+![Wireframe](assets/travel9.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
+# ** Description ** 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+???
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# ** Technologies I used ** 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Javascript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.  HTML
 
-## Learn More
+3.  CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  Mongoose
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5.  Mongodb
 
-### Code Splitting
+6.  Nodemon
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+7. Express
 
-### Analyzing the Bundle Size
+8. Cors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+9. Passport
 
-### Making a Progressive Web App
+10. Passport-Jwt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+11. Node
 
-### Advanced Configuration
+# ** Rouets I used ** 
+| Name | Path | Http Verb | Purpose |
+| --- | --- | --- | --- |
+| Index | /travels | GET | Display all lists |
+| Show | /travels/:id | GET | Display one list |
+| Create | /travels | POST | Create one list |
+| Update | /travels/:id | PATCH | Update one list |
+| Delete | /travels/:id | DELETE | Delete one list |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+User Stories
+
+ MVP
+  1. AAU, I want to add places I have travelled to. 
+  2. AAU, I want to log in, sign in and log out. 
+  3. AUU, I want to add places I want to travel to. 
+  4. AAU, I want to add notes to places I have been to.
+  5. AAU, I want to see a list of all the places I have been to. 
+  6. AAU, I want to see an interactive map of places I have been to. 
+  7. AAU, I want to see the location of the pictures. 
+  8. AAU, I want to CRUD on all locations and notes. 
+  9. AAU, I want to rate places I have been using stars.
+  10. AAU, I want to have a login/Signin Page, Landing Page, and a place detail page. 
+  11. AAU, I want to have a name, a title and a description of the location.   
+
+  Version 2
+  1. AAU, I want to see the weather of the location. 
+
+
+
+
+
